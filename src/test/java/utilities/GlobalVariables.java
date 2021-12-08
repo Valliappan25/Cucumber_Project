@@ -9,7 +9,7 @@ public class GlobalVariables {
 	public static Properties prop;
 	public static String extractProperties() throws IOException
 	{
-		FileInputStream stream = new FileInputStream("/home/n1502752/Downloads/AutomationProject-master/src/test/java/utilities/global.properties");
+		FileInputStream stream = new FileInputStream("/home/n1502752/git/AutomationProject/AutomationProject/src/test/java/utilities/global.properties");
 		System.out.println("File loaded in to stream");
 		prop = new Properties();
 		prop.load(stream);
